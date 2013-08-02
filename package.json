@@ -1,0 +1,37 @@
+{
+  "name": "generator-hapi",
+  "version": "0.0.1",
+  "description": "A Hapi.js generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/thegoleffect/generator-hapi",
+  "bugs": "https://github.com/thegoleffect/generator-hapi/issues",
+  "author": {
+    "name": "Van Nguyen",
+    "email": "the.gol.effect@gmail.com",
+    "url": "https://github.com/thegoleffect"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thegoleffect/generator-hapi.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.12.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0"
+  },
+  "engines": {
+    "node": ">=0.10.5"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
